@@ -1,0 +1,243 @@
+body {
+    background-color: #f0f2f5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    padding: 1rem 2rem;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #feca57;
+}
+
+.nav-link:hover {
+    color: #ff6b6b;
+}
+
+.written_info {
+    font-size: 1rem;
+    color:black;
+    max-width: 600px;
+}
+
+.home-image {
+    max-width: 40%;
+    height: auto;
+    margin-left: 20px;
+}
+.about-image{
+    max-width: 40%;
+    height: auto;
+    margin-left: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+/* Ensure the about section h1 has the intended color */
+#about h1 {
+    color: #007bff; /* Blue color for About Me */
+}
+
+.bg-light {
+    background-color: #feca57 !important;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contact-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.contact-icon:hover {
+    filter: brightness(1.2);
+}
+
+.contact-item p, .contact-item a {
+    margin: 0;
+    font-size: 1rem;
+    color: #fdfdfd;
+}
+
+.contact-item a:hover {
+    color: #ff6b6b;
+    text-decoration: underline;
+}
+
+.container h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #555;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.bg-dark {
+    background-color: #222 !important;
+}
+/* Animated Text */
+.fade-in {
+    opacity: 0;
+    transition: opacity 2s ease-in;
+}
+
+.fade-in.loaded {
+    opacity: 1;
+}
+
+/* Back to Top Button */
+#backToTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+#backToTop:hover {
+    background-color: #555;
+}
+/* Contact Section */
+#contact {
+    position: relative;
+    overflow: hidden;
+}
+
+#contact h1, #contact h3 {
+    text-align: center;
+}
+
+#contact h3 {
+    margin-bottom: 30px;
+    font-weight: 300;
+    color: #fdfdfd;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contact-item:hover {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.contact-icon {
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+    transition: filter 0.3s;
+}
+
+.contact-item:hover .contact-icon {
+    filter: brightness(1.3);
+}
+
+.contact-form {
+    background-color: rgba(255,255, 255, 0.9);
+        position: relative;
+        overflow: hidden;
+    }
+    
+    #contact h1, #contact h3 {
+        text-align: center;
+    }
+    
+    #contact h3 {
+        margin-bottom: 30px;
+        font-weight: 300;
+        color: #fdfdfd;
+    }
+    
+    .contact-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    
+    .contact-item:hover {
+        transform: scale(1.05);
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    
+    .contact-icon {
+        width: 35px;
+        height: 35px;
+        margin-right: 15px;
+        transition: filter 0.3s;
+    }
+    
+    .contact-item:hover .contact-icon {
+        filter: brightness(1.3);
+    }
+    
+    .contact-form {
+        background-color: rgba(255,
+    255, 255, 0.9); /* Light background for the form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    .contact-form h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    }
+    
+    .contact-form .form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    }
+    
+    .contact-form .btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    }
+    
+    .contact-form .btn-primary
+    {
+    background-color: #0056b3;
+    }
+
+
+}
